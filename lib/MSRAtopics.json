@@ -1,0 +1,2427 @@
+{
+  "categories": [
+    {
+      "category": "Cardiovascular",
+      "subsections": [
+        {
+          "name": "Ischaemic Heart Disease",
+          "subsubsections": [
+            {
+              "name": "Stable Coronary Disease",
+              "topics": [
+                "Typical vs atypical angina (risk stratification)",
+                "Functional testing (ETT, stress echo, MPS) indications",
+                "Primary prevention: QRISK, statin thresholds, lifestyle",
+                "Antianginal therapy ladder (beta-blocker, CCB, nitrates, nicorandil)",
+                "Antiplatelet therapy in chronic coronary syndrome"
+              ]
+            },
+            {
+              "name": "Acute Coronary Syndromes",
+              "topics": [
+                "STEMI recognition (ECG criteria, posterior/Right-sided MI)",
+                "NSTEMI/UA risk scores (GRACE/TIMI) and management",
+                "Dual antiplatelet therapy choices and durations",
+                "Anticoagulation in ACS (fondaparinux vs heparin)",
+                "Complications post-MI (MR, VSD, cardiogenic shock)"
+              ]
+            },
+            {
+              "name": "Secondary Prevention Post-MI",
+              "topics": [
+                "High-intensity statin and lipid targets",
+                "ACEi/ARB/ARNI and beta-blocker optimisation",
+                "Cardiac rehabilitation content and timing",
+                "Ejection fraction thresholds for ICD/CRT referral",
+                "Vaccination, lifestyle, and driving restrictions"
+              ]
+            },
+            {
+              "name": "Coronary Procedures",
+              "topics": [
+                "PCI vs CABG selection (left main, multivessel)",
+                "Stent thrombosis/ISR recognition and management",
+                "Contrast nephropathy prevention",
+                "Peri-procedural antithrombotic strategies",
+                "Post-PCI DAPT tailoring (bleeding risk)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Heart Failure",
+          "subsubsections": [
+            {
+              "name": "Acute Heart Failure",
+              "topics": [
+                "Flash pulmonary oedema: immediate management",
+                "Cardiogenic shock basics (inotropes, vasopressors)",
+                "Non-invasive ventilation indications",
+                "Diuretic strategies and diuretic resistance",
+                "BNP/NT-proBNP and point-of-care ultrasound use"
+              ]
+            },
+            {
+              "name": "Chronic HFrEF",
+              "topics": [
+                "GDMT sequencing (ACEi/ARB/ARNI, BB, MRA, SGLT2i)",
+                "Iron deficiency screening and IV iron",
+                "Device therapy (CRT/ICD) indications",
+                "Monitoring: weight, renal function, potassium",
+                "Vaccinations and lifestyle (salt, alcohol, exercise)"
+              ]
+            },
+            {
+              "name": "HFpEF",
+              "topics": [
+                "Diagnosis (echo diastolic parameters)",
+                "Comorbidity control (AF, HTN, obesity, OSA)",
+                "Diuretic use and volume assessment",
+                "SGLT2 inhibitors in HFpEF",
+                "Prognosis and follow-up"
+              ]
+            },
+            {
+              "name": "Cardiomyopathies",
+              "topics": [
+                "Dilated cardiomyopathy workup (genetic, inflammatory)",
+                "Hypertrophic cardiomyopathy: risk and Rx basics",
+                "Restrictive/infiltrative (amyloid, sarcoid) red flags",
+                "Peripartum cardiomyopathy recognition",
+                "Tako-tsubo differentiation from ACS"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arrhythmias & Conduction",
+          "subsubsections": [
+            {
+              "name": "Atrial Fibrillation/Flutter",
+              "topics": [
+                "Rate vs rhythm control initial choices",
+                "Anticoagulation: CHA2DS2-VASc, HAS-BLED",
+                "Cardioversion (electrical vs pharmacological) indications",
+                "NOAC vs warfarin selection and dosing",
+                "AF in acute illness (sepsis, thyrotoxicosis)"
+              ]
+            },
+            {
+              "name": "Bradyarrhythmias/Heart Block",
+              "topics": [
+                "Reversible causes (drugs, ischaemia, electrolytes)",
+                "ACLS bradycardia algorithm basics",
+                "Pacing indications (temporary vs permanent)",
+                "Mobitz I vs Mobitz II vs complete heart block",
+                "Syncope evaluation basics"
+              ]
+            },
+            {
+              "name": "SVT & Pre-excitation",
+              "topics": [
+                "AVNRT/AVRT acute termination (vagal, adenosine)",
+                "Wolff-Parkinson-White recognition",
+                "AF with WPW: AV nodal blocker pitfalls",
+                "Long-term management (ablation referral)",
+                "EKG features distinguishing SVT types"
+              ]
+            },
+            {
+              "name": "Ventricular Arrhythmias",
+              "topics": [
+                "VT vs SVT with aberrancy differentiation",
+                "Torsades de pointes and QT prolongation risks",
+                "ACLS tachycardia algorithm basics",
+                "Post-MI VT and ICD indications",
+                "Electrolyte-driven arrhythmias (K/Mg/Ca)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Valvular & Structural",
+          "subsubsections": [
+            {
+              "name": "Aortic Stenosis",
+              "topics": [
+                "Symptoms triad and severity grading",
+                "Echo criteria (Vmax, mean gradient, AVA)",
+                "TAVI vs SAVR selection principles",
+                "Syncope/angina in AS management",
+                "Endocarditis prophylaxis basics"
+              ]
+            },
+            {
+              "name": "Mitral Valve Disease",
+              "topics": [
+                "Primary vs secondary MR management",
+                "MS due to rheumatic disease: signs and Rx",
+                "Percutaneous vs surgical options",
+                "Atrial fibrillation in valve disease",
+                "Pulmonary hypertension due to valve disease"
+              ]
+            },
+            {
+              "name": "Aortic Regurgitation & Root",
+              "topics": [
+                "Acute vs chronic AR features",
+                "Indications for surgery (symptoms, LV dilation)",
+                "Aortopathy red flags (Marfan, bicuspid)",
+                "Afterload reduction in AR",
+                "Pulse signs and exam findings"
+              ]
+            },
+            {
+              "name": "Infective Endocarditis",
+              "topics": [
+                "Duke criteria overview",
+                "Blood culture strategy and empiric therapy",
+                "Echo selection (TTE vs TOE)",
+                "Complications (embolism, abscess, HF)",
+                "Prosthetic valve endocarditis nuances"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hypertension & Vascular",
+          "subsubsections": [
+            {
+              "name": "Hypertension",
+              "topics": [
+                "Diagnosis (ambulatory/home thresholds)",
+                "NICE A/C/D ladder and special cases",
+                "Secondary causes workup (renal, endocrine)",
+                "Hypertensive urgency vs emergency",
+                "BP targets in comorbidity (DM, CKD, frailty)"
+              ]
+            },
+            {
+              "name": "Lipid Disorders",
+              "topics": [
+                "Primary prevention thresholds and statin choice",
+                "Non-statin agents (ezetimibe, PCSK9i) basics",
+                "FH red flags and cascade screening",
+                "Monitoring LFTs and CK",
+                "Triglycerides and pancreatitis risk"
+              ]
+            },
+            {
+              "name": "Peripheral Arterial Disease",
+              "topics": [
+                "Intermittent claudication assessment",
+                "ABPI interpretation",
+                "Antiplatelets/statins and exercise therapy",
+                "Critical limb ischaemia red flags",
+                "Revascularisation basics"
+              ]
+            },
+            {
+              "name": "Aortic Disease",
+              "topics": [
+                "AAA screening and size thresholds",
+                "Aortic dissection recognition (Type A vs B)",
+                "Initial BP/HR control in dissection",
+                "Imaging choices (CT angiography)",
+                "Post-repair surveillance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Respiratory",
+      "subsections": [
+        {
+          "name": "Infective",
+          "subsubsections": [
+            {
+              "name": "Community-Acquired Pneumonia",
+              "topics": [
+                "Severity scoring (CURB-65) and disposition",
+                "Typical vs atypical pathogens",
+                "Antibiotic choices (penicillin allergy paths)",
+                "When to do CXR/CRP/procalcitonin",
+                "Complications (empyema, necrotising pneumonia)"
+              ]
+            },
+            {
+              "name": "Hospital-Acquired & Aspiration",
+              "topics": [
+                "Time thresholds defining HAP",
+                "Risk of Gram-negative and MRSA",
+                "Aspiration pneumonitis vs pneumonia",
+                "Antibiotic de-escalation principles",
+                "Dysphagia screening and prevention"
+              ]
+            },
+            {
+              "name": "TB & Atypicals",
+              "topics": [
+                "TB risk factors and screening",
+                "CXR patterns (upper lobe cavitation)",
+                "Microscopy, culture, NAAT basics",
+                "First-line regimen and hepatotoxicity",
+                "Latent TB management"
+              ]
+            },
+            {
+              "name": "Bronchiectasis",
+              "topics": [
+                "Chronic colonisation and exacerbations",
+                "Airway clearance techniques",
+                "Antibiotic strategies (oral vs IV vs inhaled)",
+                "Aetiology screen (CF, immunodeficiency)",
+                "Vaccination and prophylaxis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Obstructive Airway",
+          "subsubsections": [
+            {
+              "name": "Asthma",
+              "topics": [
+                "Acute severe/life-threatening criteria",
+                "Initial ED management (O2, SABA, steroids)",
+                "ICS-formoterol as MART",
+                "Triggers and comorbidity control",
+                "Discharge planning and PEF monitoring"
+              ]
+            },
+            {
+              "name": "COPD",
+              "topics": [
+                "AECOPD management (O2, steroids, Abx)",
+                "Long-term inhaler strategy (LABA/LAMA/ICS)",
+                "LTOT indications",
+                "Pulmonary rehab benefits",
+                "Vaccinations and smoking cessation"
+              ]
+            },
+            {
+              "name": "OSA/Obesity Hypoventilation",
+              "topics": [
+                "STOP-BANG screening",
+                "When to order sleep studies",
+                "CPAP indications and adherence",
+                "Driving regulations",
+                "Weight loss interventions"
+              ]
+            },
+            {
+              "name": "Allergic/Occupational",
+              "topics": [
+                "Allergic bronchopulmonary aspergillosis basics",
+                "Occupational asthma clues",
+                "Eosinophilic lung disease overview",
+                "FeNO and eosinophils in phenotyping",
+                "Immunotherapy basics"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pleural",
+          "subsubsections": [
+            {
+              "name": "Pneumothorax",
+              "topics": [
+                "Primary vs secondary thresholds for intervention",
+                "Tension pneumothorax recognition and needle site",
+                "Aspiration vs chest drain criteria",
+                "Post-procedure care and recurrence prevention",
+                "Air travel and diving advice"
+              ]
+            },
+            {
+              "name": "Pleural Effusion",
+              "topics": [
+                "Transudate vs exudate (Light’s criteria)",
+                "Diagnostic thoracentesis safety",
+                "Empyema red flags and management",
+                "Malignant effusions (indwelling catheters)",
+                "TB pleuritis basics"
+              ]
+            },
+            {
+              "name": "Haemothorax/Chylothorax",
+              "topics": [
+                "Traumatic vs iatrogenic haemothorax",
+                "Drainage thresholds and monitoring",
+                "Chyle recognition (triglycerides)",
+                "Nutritional management",
+                "When to involve thoracic surgery"
+              ]
+            },
+            {
+              "name": "Pleural Procedures",
+              "topics": [
+                "US-guided pleural aspiration technique",
+                "Chest drain insertion steps and complications",
+                "Dressing and drain management",
+                "Intrapleural fibrinolytics basics",
+                "Documenting consent and risks"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Interstitial & Vascular",
+          "subsubsections": [
+            {
+              "name": "Pulmonary Embolism",
+              "topics": [
+                "Wells score, PERC, YEARS algorithms",
+                "D-dimer usage and pitfalls",
+                "CTPA vs V/Q selection",
+                "Anticoagulation options and duration",
+                "Submassive/massive PE and thrombolysis"
+              ]
+            },
+            {
+              "name": "ILD",
+              "topics": [
+                "IPF vs non-IPF patterns",
+                "HRCT basics and MDT role",
+                "Antifibrotics overview",
+                "Hypersensitivity pneumonitis clues",
+                "Exacerbations and oxygen therapy"
+              ]
+            },
+            {
+              "name": "Pulmonary Hypertension",
+              "topics": [
+                "WHO groups classification",
+                "Echo screening and right heart strain",
+                "Vasoreactivity testing concept",
+                "Targeted therapies overview",
+                "Right heart failure management"
+              ]
+            },
+            {
+              "name": "Sarcoidosis",
+              "topics": [
+                "Stages on CXR",
+                "Extrapulmonary manifestations",
+                "Indications for treatment",
+                "Steroid-sparing agents",
+                "Prognosis and follow-up"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Malignancy & Airways",
+          "subsubsections": [
+            {
+              "name": "Lung Cancer",
+              "topics": [
+                "Red flags and 2WW criteria",
+                "NSCLC vs SCLC basics",
+                "Staging scans and PET",
+                "Biopsy routes (bronch, CT-guided)",
+                "Systemic therapies overview"
+              ]
+            },
+            {
+              "name": "Airway Emergencies",
+              "topics": [
+                "Upper airway obstruction recognition",
+                "Trauma and inhalational injury basics",
+                "Foreign body in adults",
+                "Anaphylaxis airway considerations",
+                "Cricothyrotomy basics"
+              ]
+            },
+            {
+              "name": "Bronchoscopic Procedures",
+              "topics": [
+                "Indications and contraindications",
+                "Sedation and monitoring",
+                "BAL vs biopsy",
+                "Complications and aftercare",
+                "Infection control"
+              ]
+            },
+            {
+              "name": "Imaging & Investigations",
+              "topics": [
+                "CXR interpretation (silhouette sign, lobar collapse)",
+                "Basic CT patterns recognition",
+                "ABG interpretation",
+                "Pulse oximetry pitfalls",
+                "Spirometry patterns (obstructive vs restrictive)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Gastroenterology & Nutrition",
+      "subsections": [
+        {
+          "name": "Upper GI",
+          "subsubsections": [
+            {
+              "name": "Dyspepsia & H. pylori",
+              "topics": [
+                "Alarm features and 2WW criteria",
+                "Test-and-treat strategy",
+                "PPI trial vs endoscopy indications",
+                "HP eradication regimens",
+                "NSAID/anticoagulant considerations"
+              ]
+            },
+            {
+              "name": "GORD & Barrett’s",
+              "topics": [
+                "Lifestyle and step-up therapy",
+                "When to scope in GORD",
+                "Barrett’s surveillance basics",
+                "PPI risks and deprescribing",
+                "Surgical referral principles"
+              ]
+            },
+            {
+              "name": "Upper GI Bleed",
+              "topics": [
+                "Glasgow-Blatchford and Rockall scores",
+                "Resuscitation and transfusion thresholds",
+                "Variceal vs non-variceal management",
+                "PPI infusion indications",
+                "Secondary prevention (H. pylori, NSAIDs)"
+              ]
+            },
+            {
+              "name": "Peptic Ulcer Disease",
+              "topics": [
+                "Ulcer complications (perforation, obstruction)",
+                "HP association and testing timing",
+                "Long-term PPI indications",
+                "Antiplatelet/anticoagulant balancing",
+                "Zollinger–Ellison basics"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lower GI",
+          "subsubsections": [
+            {
+              "name": "IBD",
+              "topics": [
+                "UC vs Crohn’s key differences",
+                "Acute severe UC management",
+                "Steroid-sparing and biologics overview",
+                "Infection screening (TB, hepatitis) pre-biologic",
+                "Cancer surveillance in IBD"
+              ]
+            },
+            {
+              "name": "Diverticular Disease",
+              "topics": [
+                "Uncomplicated vs complicated presentations",
+                "CT diagnosis and severity",
+                "Antibiotics vs conservative management",
+                "Perforation/abscess management",
+                "Prevention (diet, fibre)"
+              ]
+            },
+            {
+              "name": "Lower GI Bleeding",
+              "topics": [
+                "Initial assessment and shock management",
+                "Common sources by age",
+                "Endoscopy vs CT angiography timing",
+                "Antithrombotics handling",
+                "Discharge criteria and follow-up"
+              ]
+            },
+            {
+              "name": "IBS & Functional",
+              "topics": [
+                "Rome criteria basics",
+                "Dietary approaches (low FODMAP)",
+                "Red flags needing scope",
+                "Pharmacological options",
+                "Psychological therapies overview"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hepatology",
+          "subsubsections": [
+            {
+              "name": "Acute Hepatitis",
+              "topics": [
+                "Viral vs drug-induced patterns",
+                "Paracetamol overdose initial steps",
+                "Autoimmune hepatitis clues",
+                "When to refer to liver unit",
+                "Jaundice workup basics"
+              ]
+            },
+            {
+              "name": "Chronic Liver Disease & Cirrhosis",
+              "topics": [
+                "Aetiologies (alcohol, NAFLD, viral, autoimmune)",
+                "Decompensation (ascites, HE, varices)",
+                "SBP diagnosis and management",
+                "HCC screening",
+                "Transplant referral indicators"
+              ]
+            },
+            {
+              "name": "Alcohol-Related Liver Disease",
+              "topics": [
+                "Alcoholic hepatitis severity (Maddrey)",
+                "Steroids in severe disease",
+                "Nutritional support",
+                "Withdrawal management basics",
+                "Relapse prevention"
+              ]
+            },
+            {
+              "name": "NAFLD/Metabolic",
+              "topics": [
+                "Fibrosis assessment (FIB-4, elastography)",
+                "Lifestyle and weight loss targets",
+                "Diabetes/ASCVD risk control",
+                "When to biopsy or refer",
+                "Drug therapy landscape overview"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Biliary & Pancreas",
+          "subsubsections": [
+            {
+              "name": "Gallstone Disease",
+              "topics": [
+                "Biliary colic vs cholecystitis vs choledocholithiasis",
+                "Ultrasound first-line and lab patterns",
+                "ERCP/MRCP roles",
+                "Antibiotics and timing of surgery",
+                "Gallstone pancreatitis basics"
+              ]
+            },
+            {
+              "name": "Acute Pancreatitis",
+              "topics": [
+                "Diagnosis (amylase/lipase) and severity scores",
+                "Fluid resuscitation and analgesia",
+                "Early feeding principles",
+                "Complications (necrosis, pseudocyst)",
+                "Aetiology workup and recurrence prevention"
+              ]
+            },
+            {
+              "name": "Chronic Pancreatitis",
+              "topics": [
+                "Pain control strategies",
+                "Exocrine insufficiency and enzymes",
+                "Diabetes in chronic pancreatitis",
+                "Alcohol and smoking cessation",
+                "Nutritional support"
+              ]
+            },
+            {
+              "name": "Cholestatic Disease",
+              "topics": [
+                "PSC/PBC recognition",
+                "Pruritus management",
+                "UDCA role",
+                "Cholestasis labs interpretation",
+                "Bile duct strictures basics"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nutrition",
+          "subsubsections": [
+            {
+              "name": "Malnutrition Screening",
+              "topics": [
+                "MUST tool basics",
+                "Refeeding syndrome prevention",
+                "Electrolyte correction (phosphate, Mg, K)",
+                "Thiamine supplementation",
+                "Enteral vs parenteral decisions"
+              ]
+            },
+            {
+              "name": "Enteral Feeding",
+              "topics": [
+                "NG/NJ placement and confirmation",
+                "Feeding regimens and intolerance",
+                "Aspiration risk mitigation",
+                "PEG basics and complications",
+                "Medication administration via tube"
+              ]
+            },
+            {
+              "name": "Parenteral Nutrition",
+              "topics": [
+                "Indications and monitoring",
+                "Line care and infection prevention",
+                "Metabolic complications",
+                "Fluid balance and electrolytes",
+                "Transition back to enteral"
+              ]
+            },
+            {
+              "name": "Micronutrients",
+              "topics": [
+                "Iron deficiency workup",
+                "B12/folate deficiency",
+                "Vitamin D and bone health",
+                "Zinc/copper issues",
+                "Trace elements in PN"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Endocrinology & Metabolic",
+      "subsections": [
+        {
+          "name": "Diabetes – Acute",
+          "subsubsections": [
+            {
+              "name": "DKA",
+              "topics": [
+                "Diagnostic criteria and triggers",
+                "Fluid and insulin protocol",
+                "Potassium management",
+                "Cerebral oedema red flags",
+                "Transition to SC insulin"
+              ]
+            },
+            {
+              "name": "HHS",
+              "topics": [
+                "Key differences vs DKA",
+                "Slow correction to avoid ODS",
+                "Thromboprophylaxis",
+                "Infection search",
+                "Fluids and electrolytes plan"
+              ]
+            },
+            {
+              "name": "Hypoglycaemia",
+              "topics": [
+                "Immediate treatment options",
+                "Sulfonylurea-induced hypo",
+                "Patient education and driving",
+                "Hypo unawareness",
+                "Inpatient prevention"
+              ]
+            },
+            {
+              "name": "Perioperative Glycaemia",
+              "topics": [
+                "VRIII indications",
+                "SGLT2 inhibitor peri-op handling",
+                "Steroids and hyperglycaemia",
+                "Sick-day rules",
+                "Targets on wards"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Diabetes – Chronic",
+          "subsubsections": [
+            {
+              "name": "Type 2 Diabetes",
+              "topics": [
+                "Metformin first-line and intolerance",
+                "SGLT2 inhibitors (CV/renal benefits)",
+                "GLP-1 RAs and weight loss",
+                "HbA1c targets individualisation",
+                "ASCVD/renal risk optimisation"
+              ]
+            },
+            {
+              "name": "Type 1 Diabetes",
+              "topics": [
+                "Basal-bolus principles",
+                "Carb counting basics",
+                "CSII/CGM overview",
+                "Sick day insulin adjustments",
+                "Screening for complications"
+              ]
+            },
+            {
+              "name": "Microvascular Complications",
+              "topics": [
+                "Retinopathy screening",
+                "Nephropathy (ACR, ACEi/ARB)",
+                "Neuropathy and foot care",
+                "Gastroparesis basics",
+                "Erectile dysfunction management"
+              ]
+            },
+            {
+              "name": "Macrovascular Risk",
+              "topics": [
+                "Statins and lipid targets",
+                "Antiplatelets indications",
+                "BP targets and agents",
+                "Smoking cessation",
+                "Vaccination schedule"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Thyroid",
+          "subsubsections": [
+            {
+              "name": "Hypothyroidism",
+              "topics": [
+                "Overt vs subclinical and when to treat",
+                "Levothyroxine dosing/monitoring",
+                "Pregnancy considerations",
+                "Myxoedema coma basics",
+                "Drug interactions (iron, PPIs)"
+              ]
+            },
+            {
+              "name": "Hyperthyroidism",
+              "topics": [
+                "Graves vs toxic nodular goitre",
+                "Antithyroid drugs vs radioiodine vs surgery",
+                "Thyroid storm recognition",
+                "Beta-blockers role",
+                "Orbitopathy basics"
+              ]
+            },
+            {
+              "name": "Thyroid Nodules/Cancer",
+              "topics": [
+                "TSH then ultrasound approach",
+                "Bethesda system basics",
+                "Risk factors for malignancy",
+                "Papillary vs follicular vs medullary",
+                "Follow-up and thyroglobulin"
+              ]
+            },
+            {
+              "name": "Thyroid Function Test Pitfalls",
+              "topics": [
+                "Non-thyroidal illness",
+                "Assay interference (biotin)",
+                "Amiodarone effects",
+                "Pregnancy TSH targets",
+                "Central hypothyroidism"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Adrenal",
+          "subsubsections": [
+            {
+              "name": "Adrenal Insufficiency",
+              "topics": [
+                "Primary vs secondary clues",
+                "Synacthen test basics",
+                "Stress dosing and sick day rules",
+                "Adrenal crisis emergency management",
+                "Mineralocorticoid replacement"
+              ]
+            },
+            {
+              "name": "Cushing’s Syndrome",
+              "topics": [
+                "Screening tests (DST, UFC, late-night salivary)",
+                "ACTH-dependent vs independent",
+                "Imaging choices",
+                "Perioperative considerations",
+                "Steroid withdrawal"
+              ]
+            },
+            {
+              "name": "Primary Aldosteronism",
+              "topics": [
+                "When to screen (resistant HTN, hypoK)",
+                "ARR interpretation",
+                "Confirmatory tests",
+                "Imaging vs AVS",
+                "Medical vs surgical treatment"
+              ]
+            },
+            {
+              "name": "Phaeochromocytoma",
+              "topics": [
+                "Metanephrines testing",
+                "Alpha then beta blockade",
+                "Genetic associations",
+                "Imaging modalities",
+                "Hypertensive crisis management"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calcium, Pituitary & Metabolic",
+          "subsubsections": [
+            {
+              "name": "Calcium Disorders",
+              "topics": [
+                "Hypercalcaemia (PTH-mediated vs non-PTH)",
+                "Hypocalcaemia acute management",
+                "Vitamin D deficiency management",
+                "Malignancy-related hypercalcaemia",
+                "Bone health basics (DEXA, FRAX)"
+              ]
+            },
+            {
+              "name": "Pituitary",
+              "topics": [
+                "Prolactinoma diagnosis and dopamine agonists",
+                "Acromegaly screening (IGF-1) and Rx",
+                "Hypopituitarism replacement",
+                "Pituitary apoplexy emergency",
+                "Visual field defects"
+              ]
+            },
+            {
+              "name": "Dyslipidaemia & Metabolic",
+              "topics": [
+                "Secondary causes of dyslipidaemia",
+                "Statin intolerance approach",
+                "Hypertriglyceridaemia management",
+                "Metabolic syndrome criteria",
+                "Weight-loss pharmacotherapy overview"
+              ]
+            },
+            {
+              "name": "Electrolytes",
+              "topics": [
+                "Hyponatraemia types and management",
+                "Hypernatraemia correction",
+                "Hyperkalaemia acute treatment",
+                "Hypokalaemia causes and Rx",
+                "Magnesium disorders"
+              ]
+            }
+          ]
+        }
+      ]
+    }    ,
+    {
+      "category": "Infectious, Haematology, Immunology, Allergy & Genetics",
+      "subsections": [
+        {
+          "name": "Common Infections",
+          "subsubsections": [
+            {
+              "name": "Sepsis & Bacteraemia",
+              "topics": [
+                "Recognition and NEWS2 scoring",
+                "Initial resuscitation bundle",
+                "Blood cultures and empiric antibiotics",
+                "Source control principles",
+                "Septic shock management"
+              ]
+            },
+            {
+              "name": "Respiratory Infections",
+              "topics": [
+                "Influenza red flags and antivirals",
+                "Community vs hospital-acquired pneumonia",
+                "Aspiration pneumonia",
+                "COVID-19 acute management",
+                "Bronchitis and antibiotic stewardship"
+              ]
+            },
+            {
+              "name": "GI Infections",
+              "topics": [
+                "C. difficile testing and treatment",
+                "Traveller’s diarrhoea basics",
+                "Food poisoning organisms",
+                "Hepatitis A/E transmission",
+                "Parasitic diarrhoea overview"
+              ]
+            },
+            {
+              "name": "CNS Infections",
+              "topics": [
+                "Meningitis empiric therapy by age",
+                "Viral encephalitis (HSV, VZV)",
+                "Lumbar puncture contraindications",
+                "Meningococcal sepsis recognition",
+                "Post-exposure prophylaxis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Haematology",
+          "subsubsections": [
+            {
+              "name": "Anaemias",
+              "topics": [
+                "Microcytic (iron, thalassaemia, anaemia of chronic disease)",
+                "Macrocytic (B12, folate, alcohol, hypothyroid)",
+                "Haemolytic anaemia features",
+                "Transfusion thresholds",
+                "Iron studies interpretation"
+              ]
+            },
+            {
+              "name": "Bleeding Disorders",
+              "topics": [
+                "Warfarin/DOAC reversal strategies",
+                "Haemophilia basics",
+                "von Willebrand disease",
+                "Thrombocytopenia causes",
+                "DIC recognition"
+              ]
+            },
+            {
+              "name": "Thrombosis",
+              "topics": [
+                "Provoked vs unprovoked DVT/PE",
+                "Length of anticoagulation",
+                "Cancer-associated thrombosis",
+                "Thrombophilia testing indications",
+                "Post-thrombotic syndrome prevention"
+              ]
+            },
+            {
+              "name": "Haematological Malignancies",
+              "topics": [
+                "Acute leukaemias vs chronic",
+                "Lymphoma red flags",
+                "Myeloma CRAB features",
+                "Tumour lysis syndrome",
+                "Pancytopenia workup"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Immunology",
+          "subsubsections": [
+            {
+              "name": "Primary Immunodeficiency",
+              "topics": [
+                "Recurrent infections pattern",
+                "Antibody deficiencies basics",
+                "T-cell defects recognition",
+                "Complement deficiencies",
+                "Referral triggers"
+              ]
+            },
+            {
+              "name": "Secondary Immunodeficiency",
+              "topics": [
+                "HIV stages and OIs",
+                "Immunosuppressive drugs",
+                "Splenectomy risk and vaccination",
+                "Cancer-related immunodeficiency",
+                "Malnutrition-related"
+              ]
+            },
+            {
+              "name": "Autoimmunity",
+              "topics": [
+                "SLE diagnostic features",
+                "Antibody testing interpretation",
+                "Sjögren’s basics",
+                "Vasculitis red flags",
+                "Autoimmune overlap syndromes"
+              ]
+            },
+            {
+              "name": "Transplant Immunology",
+              "topics": [
+                "Rejection types",
+                "Immunosuppressive regimens",
+                "Infection prophylaxis",
+                "Malignancy risk",
+                "Vaccination after transplant"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Allergy",
+          "subsubsections": [
+            {
+              "name": "Drug Allergy",
+              "topics": [
+                "Penicillin allergy prevalence and testing",
+                "Cross-reactivity with cephalosporins",
+                "Anaphylaxis acute management",
+                "Documentation in records",
+                "Desensitisation concepts"
+              ]
+            },
+            {
+              "name": "Food Allergy",
+              "topics": [
+                "IgE-mediated vs non-IgE",
+                "Oral food challenge basics",
+                "EpiPen training",
+                "Common allergens by age",
+                "Tolerance development"
+              ]
+            },
+            {
+              "name": "Urticaria & Angioedema",
+              "topics": [
+                "Acute vs chronic urticaria",
+                "C1 esterase deficiency",
+                "Antihistamine therapy",
+                "Steroid role",
+                "Referral criteria"
+              ]
+            },
+            {
+              "name": "Environmental Allergy",
+              "topics": [
+                "Allergic rhinitis basics",
+                "Allergen avoidance strategies",
+                "Immunotherapy role",
+                "Asthma/allergy overlap",
+                "Occupational allergy"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Genetics",
+          "subsubsections": [
+            {
+              "name": "Basic Principles",
+              "topics": [
+                "Mendelian inheritance patterns",
+                "X-linked vs mitochondrial",
+                "Genetic counselling basics",
+                "Penetrance and expressivity",
+                "Carrier screening"
+              ]
+            },
+            {
+              "name": "Common Syndromes",
+              "topics": [
+                "Down syndrome features",
+                "Turner syndrome",
+                "Klinefelter syndrome",
+                "Marfan syndrome",
+                "Neurofibromatosis"
+              ]
+            },
+            {
+              "name": "Cancer Genetics",
+              "topics": [
+                "BRCA1/2 inheritance",
+                "Lynch syndrome basics",
+                "FAP vs HNPCC",
+                "Li-Fraumeni",
+                "Genetic testing referral"
+              ]
+            },
+            {
+              "name": "Prenatal/Perinatal",
+              "topics": [
+                "Screening strategies",
+                "Chorionic villus sampling",
+                "Amniocentesis",
+                "Non-invasive prenatal testing",
+                "Counselling ethical issues"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Musculoskeletal",
+      "subsections": [
+        {
+          "name": "Arthritis",
+          "subsubsections": [
+            {
+              "name": "Osteoarthritis",
+              "topics": [
+                "Typical presentation and joints affected",
+                "Radiological features",
+                "Non-pharmacological management",
+                "Analgesic ladder",
+                "Surgical referral"
+              ]
+            },
+            {
+              "name": "Rheumatoid Arthritis",
+              "topics": [
+                "Early features and serology",
+                "DMARD initiation and monitoring",
+                "Biologics overview",
+                "Extra-articular manifestations",
+                "Treat-to-target strategy"
+              ]
+            },
+            {
+              "name": "Crystal Arthropathies",
+              "topics": [
+                "Gout acute and prophylaxis",
+                "CPPD recognition",
+                "Joint aspiration interpretation",
+                "Allopurinol initiation",
+                "Lifestyle modification"
+              ]
+            },
+            {
+              "name": "Spondyloarthropathy",
+              "topics": [
+                "AS presentation and imaging",
+                "Psoriatic arthritis types",
+                "Enteropathic arthritis",
+                "Reactive arthritis",
+                "HLA-B27 association"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bone & Metabolic",
+          "subsubsections": [
+            {
+              "name": "Osteoporosis",
+              "topics": [
+                "FRAX and DEXA interpretation",
+                "Bisphosphonate indications",
+                "Calcium/vitamin D role",
+                "Drug holidays",
+                "Atypical femoral fracture risk"
+              ]
+            },
+            {
+              "name": "Paget’s Disease",
+              "topics": [
+                "Biochemical features",
+                "Radiological findings",
+                "Bisphosphonate therapy",
+                "Complications (deafness, sarcoma)",
+                "Monitoring ALP"
+              ]
+            },
+            {
+              "name": "Osteomalacia/Rickets",
+              "topics": [
+                "Vitamin D deficiency causes",
+                "Bone pain vs weakness",
+                "X-ray features",
+                "Treatment regimens",
+                "Complications"
+              ]
+            },
+            {
+              "name": "Bone Tumours",
+              "topics": [
+                "Primary vs secondary",
+                "Osteosarcoma features",
+                "Multiple myeloma",
+                "Metastatic bone disease",
+                "Red flag signs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Soft Tissue",
+          "subsubsections": [
+            {
+              "name": "Back Pain",
+              "topics": [
+                "Mechanical vs inflammatory",
+                "Red flag symptoms",
+                "Initial imaging strategy",
+                "Analgesia and physio",
+                "Cauda equina recognition"
+              ]
+            },
+            {
+              "name": "Soft Tissue Injuries",
+              "topics": [
+                "Sprain vs strain",
+                "RICE principles",
+                "Return to play",
+                "Compartment syndrome basics",
+                "Tendon rupture management"
+              ]
+            },
+            {
+              "name": "Fibromyalgia",
+              "topics": [
+                "Diagnostic features",
+                "Overlap with mood disorders",
+                "Non-pharmacological therapy",
+                "Pharmacological options",
+                "Prognosis"
+              ]
+            },
+            {
+              "name": "Infections",
+              "topics": [
+                "Septic arthritis",
+                "Osteomyelitis",
+                "Discitis",
+                "Prosthetic joint infection",
+                "Antibiotic strategies"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Trauma & Orthopaedics",
+          "subsubsections": [
+            {
+              "name": "Fractures",
+              "topics": [
+                "NOF fracture management",
+                "Colles’ fracture",
+                "Scaphoid fracture imaging",
+                "Open fracture principles",
+                "Paediatric fractures"
+              ]
+            },
+            {
+              "name": "Dislocations",
+              "topics": [
+                "Shoulder dislocation",
+                "Hip dislocation",
+                "Patellar dislocation",
+                "Reduction principles",
+                "Immobilisation and rehab"
+              ]
+            },
+            {
+              "name": "Sports Injuries",
+              "topics": [
+                "ACL injury",
+                "Meniscal tears",
+                "Rotator cuff tears",
+                "Tennis elbow",
+                "Stress fractures"
+              ]
+            },
+            {
+              "name": "Spinal",
+              "topics": [
+                "Cervical spine injury clearance",
+                "Spinal cord compression",
+                "Spinal stenosis",
+                "Whiplash",
+                "Scoliosis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rheumatology & Connective Tissue",
+          "subsubsections": [
+            {
+              "name": "SLE",
+              "topics": [
+                "Clinical features",
+                "Autoantibodies",
+                "Renal involvement",
+                "Treatment principles",
+                "Pregnancy management"
+              ]
+            },
+            {
+              "name": "Scleroderma",
+              "topics": [
+                "Limited vs diffuse",
+                "Raynaud’s phenomenon",
+                "Pulmonary hypertension",
+                "Renal crisis",
+                "Management basics"
+              ]
+            },
+            {
+              "name": "Myositis",
+              "topics": [
+                "Polymyositis vs dermatomyositis",
+                "CK and autoantibodies",
+                "Malignancy association",
+                "Treatment basics",
+                "Complications"
+              ]
+            },
+            {
+              "name": "Vasculitis",
+              "topics": [
+                "GCA red flags and steroids",
+                "ANCA-associated vasculitis",
+                "Polyarteritis nodosa",
+                "Cryoglobulinaemia",
+                "Monitoring and relapse"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Paediatrics",
+      "subsections": [
+        {
+          "name": "Neonatology",
+          "subsubsections": [
+            {
+              "name": "Resuscitation & Emergencies",
+              "topics": [
+                "Apgar scoring",
+                "Initial neonatal resus steps",
+                "Hypoglycaemia recognition",
+                "Sepsis in neonates",
+                "Respiratory distress syndrome"
+              ]
+            },
+            {
+              "name": "Feeding & Growth",
+              "topics": [
+                "Breastfeeding advantages",
+                "Formula feeding issues",
+                "Failure to thrive",
+                "Growth charts use",
+                "Vitamin supplementation"
+              ]
+            },
+            {
+              "name": "Jaundice",
+              "topics": [
+                "Physiological vs pathological",
+                "Conjugated vs unconjugated",
+                "Phototherapy thresholds",
+                "Exchange transfusion",
+                "Red flag features"
+              ]
+            },
+            {
+              "name": "Congenital Conditions",
+              "topics": [
+                "CHD basics",
+                "Neural tube defects",
+                "Cleft palate",
+                "Down syndrome",
+                "PKU screening"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Infant & Early Childhood",
+          "subsubsections": [
+            {
+              "name": "Common Infections",
+              "topics": [
+                "Bronchiolitis",
+                "Croup",
+                "Otitis media",
+                "UTI in infants",
+                "Meningitis"
+              ]
+            },
+            {
+              "name": "Immunisation",
+              "topics": [
+                "UK vaccination schedule",
+                "Live vs inactivated vaccines",
+                "Contraindications",
+                "Adverse reactions",
+                "Catch-up programmes"
+              ]
+            },
+            {
+              "name": "Nutrition & Development",
+              "topics": [
+                "Weaning principles",
+                "Developmental milestones",
+                "Iron deficiency anaemia",
+                "Rickets",
+                "Growth monitoring"
+              ]
+            },
+            {
+              "name": "Safeguarding",
+              "topics": [
+                "Non-accidental injury signs",
+                "Fabricated illness",
+                "Neglect indicators",
+                "Referral procedures",
+                "Child protection law basics"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Adolescence",
+          "subsubsections": [
+            {
+              "name": "Puberty & Endocrine",
+              "topics": [
+                "Normal puberty timing",
+                "Precocious puberty",
+                "Delayed puberty",
+                "Menstrual irregularities",
+                "Growth disorders"
+              ]
+            },
+            {
+              "name": "Mental Health",
+              "topics": [
+                "Depression in adolescents",
+                "Eating disorders",
+                "Self-harm assessment",
+                "Substance misuse",
+                "Bullying impact"
+              ]
+            },
+            {
+              "name": "Sexual & Reproductive Health",
+              "topics": [
+                "Contraception in teenagers",
+                "STIs in adolescents",
+                "Consent and confidentiality",
+                "HPV vaccination",
+                "Pregnancy support"
+              ]
+            },
+            {
+              "name": "Chronic Illness",
+              "topics": [
+                "Diabetes transition care",
+                "Asthma in teenagers",
+                "Cystic fibrosis",
+                "Epilepsy",
+                "Adherence issues"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paediatric Emergencies",
+          "subsubsections": [
+            {
+              "name": "Resuscitation",
+              "topics": [
+                "Paediatric BLS/ALS differences",
+                "Airway management",
+                "Shockable vs non-shockable rhythms",
+                "Fluid resus principles",
+                "Sepsis 6 in children"
+              ]
+            },
+            {
+              "name": "Respiratory",
+              "topics": [
+                "Asthma acute management",
+                "Anaphylaxis",
+                "Foreign body airway obstruction",
+                "Pneumonia",
+                "Bronchiolitis"
+              ]
+            },
+            {
+              "name": "Neurology",
+              "topics": [
+                "Febrile convulsions",
+                "Status epilepticus",
+                "Head injury",
+                "Meningitis/encephalitis",
+                "Raised ICP"
+              ]
+            },
+            {
+              "name": "Trauma & Burns",
+              "topics": [
+                "Non-accidental injury",
+                "Burns resuscitation",
+                "Fractures",
+                "Poisoning basics",
+                "Drowning"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chronic Paediatrics",
+          "subsubsections": [
+            {
+              "name": "Respiratory",
+              "topics": [
+                "Asthma control",
+                "Cystic fibrosis",
+                "Bronchopulmonary dysplasia",
+                "OSA in children",
+                "Allergies"
+              ]
+            },
+            {
+              "name": "Neurology",
+              "topics": [
+                "Epilepsy syndromes",
+                "Cerebral palsy",
+                "Neuromuscular disorders",
+                "Learning disability",
+                "Autism spectrum"
+              ]
+            },
+            {
+              "name": "Renal",
+              "topics": [
+                "Nephrotic syndrome",
+                "UTI recurrence",
+                "Congenital anomalies",
+                "AKI in children",
+                "Dialysis basics"
+              ]
+            },
+            {
+              "name": "Oncology",
+              "topics": [
+                "Leukaemia",
+                "Brain tumours",
+                "Wilms tumour",
+                "Lymphoma",
+                "Late effects of therapy"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Pharmacology & Therapeutics",
+      "subsections": [
+        {
+          "name": "General Principles",
+          "subsubsections": [
+            {
+              "name": "Pharmacokinetics",
+              "topics": [
+                "Absorption, distribution, metabolism, excretion",
+                "First-pass metabolism",
+                "Half-life concepts",
+                "Steady state principles",
+                "Drug interactions"
+              ]
+            },
+            {
+              "name": "Pharmacodynamics",
+              "topics": [
+                "Agonist vs antagonist",
+                "Therapeutic index",
+                "Dose-response curves",
+                "Tolerance and dependence",
+                "Receptor subtypes"
+              ]
+            },
+            {
+              "name": "Prescribing Safety",
+              "topics": [
+                "Allergy documentation",
+                "Renal/hepatic dose adjustments",
+                "High-risk drugs (warfarin, insulin, opioids)",
+                "Drug monitoring (levels, blood tests)",
+                "Common drug interactions"
+              ]
+            },
+            {
+              "name": "Special Situations",
+              "topics": [
+                "Prescribing in pregnancy",
+                "Breastfeeding safety",
+                "Elderly/frail patients",
+                "Children and neonates",
+                "End-of-life care drugs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Antibiotics",
+          "subsubsections": [
+            {
+              "name": "Beta-lactams",
+              "topics": [
+                "Penicillin spectrum",
+                "Cephalosporin generations",
+                "Carbapenems",
+                "Beta-lactam allergy",
+                "Resistance mechanisms"
+              ]
+            },
+            {
+              "name": "Other Classes",
+              "topics": [
+                "Macrolides",
+                "Aminoglycosides",
+                "Fluoroquinolones",
+                "Tetracyclines",
+                "Glycopeptides"
+              ]
+            },
+            {
+              "name": "Antifungals",
+              "topics": [
+                "Azoles",
+                "Echinocandins",
+                "Amphotericin B",
+                "Topical antifungals",
+                "Common side effects"
+              ]
+            },
+            {
+              "name": "Antivirals",
+              "topics": [
+                "Influenza antivirals",
+                "HIV ART basics",
+                "Hepatitis antivirals",
+                "Herpes virus treatment",
+                "Resistance issues"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cardiovascular Drugs",
+          "subsubsections": [
+            {
+              "name": "Antihypertensives",
+              "topics": [
+                "ACE inhibitors",
+                "ARBs",
+                "Beta-blockers",
+                "Calcium channel blockers",
+                "Diuretics"
+              ]
+            },
+            {
+              "name": "Antiarrhythmics",
+              "topics": [
+                "Class I–IV agents",
+                "Amiodarone monitoring",
+                "Adenosine use",
+                "Digoxin",
+                "Electrical vs drug cardioversion"
+              ]
+            },
+            {
+              "name": "Antiplatelets & Anticoagulants",
+              "topics": [
+                "Aspirin and clopidogrel",
+                "DOACs vs warfarin",
+                "Heparins",
+                "Reversal strategies",
+                "Bridging anticoagulation"
+              ]
+            },
+            {
+              "name": "Lipid-lowering",
+              "topics": [
+                "Statins",
+                "Ezetimibe",
+                "PCSK9 inhibitors",
+                "Fibrates",
+                "Monitoring requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CNS & Analgesics",
+          "subsubsections": [
+            {
+              "name": "Pain Ladder",
+              "topics": [
+                "Paracetamol",
+                "NSAIDs",
+                "Weak opioids",
+                "Strong opioids",
+                "Adjuvants"
+              ]
+            },
+            {
+              "name": "Opioid Safety",
+              "topics": [
+                "Morphine equivalents",
+                "PCA basics",
+                "Naloxone use",
+                "Side effects",
+                "Tolerance and dependence"
+              ]
+            },
+            {
+              "name": "Neuropathic Pain",
+              "topics": [
+                "Gabapentinoids",
+                "TCAs",
+                "SNRIs",
+                "Topical agents",
+                "Stepwise management"
+              ]
+            },
+            {
+              "name": "Antiepileptics",
+              "topics": [
+                "Sodium valproate",
+                "Lamotrigine",
+                "Levetiracetam",
+                "Carbamazepine",
+                "Pregnancy considerations"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Endocrine & Miscellaneous",
+          "subsubsections": [
+            {
+              "name": "Diabetes Drugs",
+              "topics": [
+                "Metformin",
+                "Sulfonylureas",
+                "SGLT2 inhibitors",
+                "GLP-1 agonists",
+                "Insulin regimens"
+              ]
+            },
+            {
+              "name": "Thyroid Drugs",
+              "topics": [
+                "Levothyroxine",
+                "Carbimazole",
+                "Radioiodine",
+                "Peri-op thyroid management",
+                "Side effects"
+              ]
+            },
+            {
+              "name": "Steroids & Immunosuppressants",
+              "topics": [
+                "Prednisolone vs hydrocortisone",
+                "Steroid tapering",
+                "Ciclosporin/tacrolimus basics",
+                "Azathioprine monitoring",
+                "Biologics"
+              ]
+            },
+            {
+              "name": "Oncology Drugs",
+              "topics": [
+                "Cytotoxics overview",
+                "Targeted therapies",
+                "Common side effects",
+                "Neutropenic sepsis",
+                "Antiemetics"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Psychiatry & Neurology",
+      "subsections": [
+        {
+          "name": "Mood Disorders",
+          "subsubsections": [
+            {
+              "name": "Depression",
+              "topics": [
+                "Diagnostic criteria",
+                "First-line therapy",
+                "SSRIs vs alternatives",
+                "Suicide risk assessment",
+                "ECT basics"
+              ]
+            },
+            {
+              "name": "Bipolar Disorder",
+              "topics": [
+                "Mania vs hypomania",
+                "Mood stabilisers",
+                "Lithium monitoring",
+                "Relapse prevention",
+                "Psychosocial interventions"
+              ]
+            },
+            {
+              "name": "Postnatal Depression",
+              "topics": [
+                "Risk factors",
+                "Screening tools",
+                "Therapeutic approaches",
+                "Mother–infant bonding",
+                "Referral thresholds"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Psychosis & Anxiety",
+          "subsubsections": [
+            {
+              "name": "Schizophrenia",
+              "topics": [
+                "Positive and negative symptoms",
+                "Antipsychotic choice",
+                "Clozapine monitoring",
+                "Relapse prevention",
+                "Prognosis"
+              ]
+            },
+            {
+              "name": "Anxiety Disorders",
+              "topics": [
+                "GAD diagnostic criteria",
+                "CBT first-line",
+                "SSRIs and SNRIs",
+                "Panic disorder",
+                "Phobias"
+              ]
+            },
+            {
+              "name": "OCD & PTSD",
+              "topics": [
+                "Core features",
+                "CBT vs medication",
+                "SSRIs in higher doses",
+                "Trauma-focused therapy",
+                "Prognosis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Substance Misuse",
+          "subsubsections": [
+            {
+              "name": "Alcohol",
+              "topics": [
+                "Hazardous vs dependent use",
+                "Withdrawal management",
+                "Thiamine and Wernicke’s",
+                "Relapse prevention drugs",
+                "Liver complications"
+              ]
+            },
+            {
+              "name": "Drugs",
+              "topics": [
+                "Opioid substitution",
+                "Stimulant misuse",
+                "Cannabis",
+                "Benzodiazepines",
+                "Dual diagnosis"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Neurology",
+          "subsubsections": [
+            {
+              "name": "Epilepsy",
+              "topics": [
+                "Focal vs generalised",
+                "Driving regulations",
+                "AED side effects",
+                "Status epilepticus",
+                "Surgery"
+              ]
+            },
+            {
+              "name": "Stroke & TIA",
+              "topics": [
+                "FAST/TIA recognition",
+                "Thrombolysis/thrombectomy",
+                "Antiplatelet therapy",
+                "Secondary prevention",
+                "Rehabilitation"
+              ]
+            },
+            {
+              "name": "Movement Disorders",
+              "topics": [
+                "Parkinson’s disease",
+                "Essential tremor",
+                "Drug-induced parkinsonism",
+                "Huntington’s",
+                "Management strategies"
+              ]
+            },
+            {
+              "name": "Headache",
+              "topics": [
+                "Migraine features",
+                "Tension-type headache",
+                "Cluster headache",
+                "Red flag headache",
+                "Medication overuse"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dementia & Delirium",
+          "subsubsections": [
+            {
+              "name": "Dementia",
+              "topics": [
+                "Alzheimer’s disease",
+                "Vascular dementia",
+                "Lewy body dementia",
+                "Frontotemporal dementia",
+                "Cholinesterase inhibitors"
+              ]
+            },
+            {
+              "name": "Delirium",
+              "topics": [
+                "Risk factors",
+                "CAM diagnostic tool",
+                "Acute management",
+                "Prevention strategies",
+                "Prognosis"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Renal & Urology",
+      "subsections": [
+        {
+          "name": "Acute Kidney Injury",
+          "subsubsections": [
+            {
+              "name": "Causes",
+              "topics": [
+                "Pre-renal",
+                "Intrinsic renal",
+                "Post-renal",
+                "Drugs",
+                "Sepsis"
+              ]
+            },
+            {
+              "name": "Diagnosis",
+              "topics": [
+                "Creatinine and urine output criteria",
+                "U&Es interpretation",
+                "Urinalysis",
+                "Imaging for obstruction",
+                "Staging"
+              ]
+            },
+            {
+              "name": "Management",
+              "topics": [
+                "Fluid resuscitation",
+                "Stop nephrotoxins",
+                "Monitor electrolytes",
+                "Dialysis indications",
+                "Referral"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chronic Kidney Disease",
+          "subsubsections": [
+            {
+              "name": "Diagnosis",
+              "topics": [
+                "eGFR calculation",
+                "ACR testing",
+                "Staging CKD",
+                "Causes",
+                "Referral thresholds"
+              ]
+            },
+            {
+              "name": "Complications",
+              "topics": [
+                "Anaemia",
+                "Mineral bone disease",
+                "Metabolic acidosis",
+                "CV risk",
+                "Fluid overload"
+              ]
+            },
+            {
+              "name": "Management",
+              "topics": [
+                "ACEi/ARB use",
+                "BP control",
+                "Diuretics",
+                "Dialysis initiation",
+                "Transplant referral"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Urology",
+          "subsubsections": [
+            {
+              "name": "Obstruction",
+              "topics": [
+                "BPH",
+                "Urethral stricture",
+                "Stones",
+                "Catheterisation",
+                "Acute retention"
+              ]
+            },
+            {
+              "name": "Infections",
+              "topics": [
+                "Cystitis",
+                "Pyelonephritis",
+                "Prostatitis",
+                "Epididymo-orchitis",
+                "UTIs in pregnancy"
+              ]
+            },
+            {
+              "name": "Malignancy",
+              "topics": [
+                "Bladder cancer",
+                "Renal cell carcinoma",
+                "Prostate cancer basics",
+                "Testicular tumours",
+                "Red flag haematuria"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Reproductive Health",
+      "subsections": [
+        {
+          "name": "Obstetrics – Early",
+          "subsubsections": [
+            {
+              "name": "Antenatal Care",
+              "topics": [
+                "Booking visit tests",
+                "Screening for aneuploidy",
+                "Vaccinations",
+                "Lifestyle advice",
+                "High-risk pregnancy identification"
+              ]
+            },
+            {
+              "name": "Early Pregnancy Problems",
+              "topics": [
+                "Miscarriage types",
+                "Ectopic pregnancy",
+                "Hyperemesis gravidarum",
+                "Bleeding in pregnancy",
+                "Molar pregnancy"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Obstetrics – Late",
+          "subsubsections": [
+            {
+              "name": "Hypertensive Disorders",
+              "topics": [
+                "Pre-eclampsia features",
+                "Eclampsia management",
+                "Gestational hypertension",
+                "HELLP syndrome",
+                "Aspirin prophylaxis"
+              ]
+            },
+            {
+              "name": "Diabetes in Pregnancy",
+              "topics": [
+                "GDM screening",
+                "Targets and therapy",
+                "Labour management",
+                "Postnatal testing",
+                "Risks to fetus"
+              ]
+            },
+            {
+              "name": "Labour & Delivery",
+              "topics": [
+                "Stages of labour",
+                "Induction methods",
+                "Caesarean section",
+                "Instrumental delivery",
+                "Shoulder dystocia"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gynaecology",
+          "subsubsections": [
+            {
+              "name": "Menstrual Disorders",
+              "topics": [
+                "Amenorrhoea",
+                "Heavy menstrual bleeding",
+                "Dysmenorrhoea",
+                "PCOS",
+                "PMDD"
+              ]
+            },
+            {
+              "name": "Contraception",
+              "topics": [
+                "Combined pill",
+                "Progesterone-only methods",
+                "LARCs",
+                "Emergency contraception",
+                "Contraindications"
+              ]
+            },
+            {
+              "name": "Infertility",
+              "topics": [
+                "Causes",
+                "Initial investigations",
+                "Ovulation induction",
+                "IVF basics",
+                "Male factors"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STIs & Sexual Health",
+          "subsubsections": [
+            {
+              "name": "STIs",
+              "topics": [
+                "Chlamydia",
+                "Gonorrhoea",
+                "Syphilis",
+                "Genital herpes",
+                "HPV"
+              ]
+            },
+            {
+              "name": "HIV",
+              "topics": [
+                "Testing strategies",
+                "ART basics",
+                "Pre/post-exposure prophylaxis",
+                "Opportunistic infections",
+                "Pregnancy considerations"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "category": "Dermatology, ENT & Eyes",
+      "subsections": [
+        {
+          "name": "Dermatology",
+          "subsubsections": [
+            {
+              "name": "Inflammatory Skin Disease",
+              "topics": [
+                "Eczema/atopic dermatitis",
+                "Psoriasis types",
+                "Seborrhoeic dermatitis",
+                "Contact dermatitis",
+                "Lichen planus"
+              ]
+            },
+            {
+              "name": "Infections",
+              "topics": [
+                "Impetigo",
+                "Cellulitis/erysipelas",
+                "Fungal skin infections",
+                "Viral exanthems",
+                "Scabies"
+              ]
+            },
+            {
+              "name": "Blistering Disorders",
+              "topics": [
+                "Bullous pemphigoid",
+                "Pemphigus vulgaris",
+                "Dermatitis herpetiformis",
+                "Stevens–Johnson syndrome",
+                "Toxic epidermal necrolysis"
+              ]
+            },
+            {
+              "name": "Skin Malignancy",
+              "topics": [
+                "Basal cell carcinoma",
+                "Squamous cell carcinoma",
+                "Malignant melanoma",
+                "Pre-malignant lesions (actinic keratosis)",
+                "Skin cancer referral criteria"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ENT",
+          "subsubsections": [
+            {
+              "name": "Ear",
+              "topics": [
+                "Otitis externa",
+                "Otitis media (acute/effusion)",
+                "Hearing loss causes",
+                "Vertigo (BPPV, vestibular neuritis, Meniere’s)",
+                "Perforated eardrum"
+              ]
+            },
+            {
+              "name": "Nose & Sinus",
+              "topics": [
+                "Allergic rhinitis",
+                "Sinusitis",
+                "Nasal polyps",
+                "Epistaxis management",
+                "Deviated septum"
+              ]
+            },
+            {
+              "name": "Throat",
+              "topics": [
+                "Tonsillitis/quinsy",
+                "Peritonsillar abscess",
+                "Pharyngitis causes",
+                "Laryngeal cancer",
+                "Hoarseness"
+              ]
+            },
+            {
+              "name": "Head & Neck Emergencies",
+              "topics": [
+                "Epiglottitis",
+                "Upper airway obstruction",
+                "Anaphylaxis airway management",
+                "Neck space infections",
+                "Foreign body airway"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ophthalmology",
+          "subsubsections": [
+            {
+              "name": "Red Eye",
+              "topics": [
+                "Conjunctivitis (viral/bacterial/allergic)",
+                "Keratitis",
+                "Episcleritis vs scleritis",
+                "Acute angle-closure glaucoma",
+                "Anterior uveitis"
+              ]
+            },
+            {
+              "name": "Retinal Disorders",
+              "topics": [
+                "Diabetic retinopathy",
+                "Retinal detachment",
+                "Age-related macular degeneration",
+                "Retinal vein occlusion",
+                "Retinitis pigmentosa"
+              ]
+            },
+            {
+              "name": "Neuro-ophthalmology",
+              "topics": [
+                "Papilloedema",
+                "Optic neuritis",
+                "Cranial nerve palsies",
+                "Visual field defects",
+                "Giant cell arteritis and vision loss"
+              ]
+            },
+            {
+              "name": "Trauma & Emergencies",
+              "topics": [
+                "Chemical eye injury",
+                "Orbital cellulitis",
+                "Blunt trauma",
+                "Penetrating injury",
+                "Acute visual loss"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Common Presentations",
+          "subsubsections": [
+            {
+              "name": "Skin",
+              "topics": [
+                "Acne vulgaris",
+                "Rosacea",
+                "Alopecia areata",
+                "Vitiligo",
+                "Benign naevi"
+              ]
+            },
+            {
+              "name": "ENT",
+              "topics": [
+                "Snoring and OSA",
+                "Otitis media with effusion in children",
+                "Hearing screening",
+                "Sudden hearing loss",
+                "ENT red flags"
+              ]
+            },
+            {
+              "name": "Eye",
+              "topics": [
+                "Cataracts",
+                "Primary open-angle glaucoma",
+                "Blepharitis",
+                "Dry eye syndrome",
+                "Refractive errors"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
