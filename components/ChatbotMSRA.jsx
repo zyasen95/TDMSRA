@@ -1,4 +1,4 @@
-// components/ChatbotMSRA.jsx - PATCHED (GURU branding, cleaner output, prominent Show thinking button)
+// components/ChatbotMSRA.jsx - PROPERLY FIXED with correct formatting
 
 "use client";
 
@@ -16,80 +16,62 @@ const isLikelyHTML = (str) => /<\/?[a-z][\s\S]*>/i.test(str);
 const PILL_DURATION = 150;
 const CLOSE_DELAY = 150;
 
-/** --- NEW: Gentle markdown cleanup to avoid over-bulleted and numbered titles --- */
+/** --- FIXED: Minimal intervention cleanup - let markdown handle most formatting --- */
 const SECTION_TITLES = new Set([
   "Clinical relevance","Memory anchor","Key points","References","Summary","Red flags",
   "Explanation","Diagnosis","Management","Investigations","Investigation","Treatment",
   "Differential diagnosis","Prognosis","Epidemiology","Pathophysiology","Risk factors",
+  "Clinical Overview", "Stepwise Approach", "Key Points", "Common Pitfalls", "Sources",
+  "Memory Anchor"
 ]);
 
 function cleanBotText(raw) {
   if (!raw || typeof raw !== "string") return raw;
 
-  // Early exit if it looks like raw HTML (handled by HTML branch)
+  // Early exit if it looks like raw HTML
   if (isLikelyHTML(raw)) return raw;
 
-  // Normalise line endings
-  let text = raw.replace(/\r\n/g, "\n");
-
+  // Minimal cleanup - just ensure consistent line endings
+  let text = raw.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
+  
+  // Fix any obvious formatting issues without being too aggressive
+  // 1. Fix orphaned asterisks (** without closing)
+  text = text.replace(/\*\*\s*$/gm, "");
+  text = text.replace(/^\s*\*\*\s*$/gm, "");
+  
+  // 2. Ensure section headers are properly formatted
   const lines = text.split("\n");
-  const nonEmpty = lines.filter(l => l.trim().length > 0);
-  const bulletish = nonEmpty.filter(l => /^\s*[-*•]\s+/.test(l)).length;
-  // More aggressive threshold: remove bullets if more than 40% of lines have them
-  const overBulleted = nonEmpty.length > 0 && (bulletish / nonEmpty.length) > 0.4;
-
-  const out = [];
-
+  const cleanedLines = [];
+  
   for (let i = 0; i < lines.length; i++) {
     let line = lines[i];
-
-    // If the whole answer is over-bulleted, remove leading bullets for paragraph lines
-    if (overBulleted) {
-      line = line.replace(/^\s*[-*•]\s+/, "");
-    }
     
-    // Always remove bullets from lines that start with bold text (section headers)
-    if (/^\s*[-*•]\s+\*\*/.test(line)) {
-      line = line.replace(/^\s*[-*•]\s+/, "");
-    }
-
-    // Strip leading single-number enumeration (common "1. Title" artefact)
-    line = line.replace(/^\s*\d+\.\s+(.*)$/, "$1");
-
-    // If a line starts with a bullet then a bold/section title, drop the bullet
-    line = line.replace(/^\s*[-*•]\s+(\*\*[^*]+?\*\*:?\s*.*)$/, "$1");
-
-    // If it's a "Title: body..." line, ensure body goes to next line and insert a blank line
-    const m = line.match(/^\s*(\*\*?)([^*:\n]{3,80}?)(\*\*?)\s*:?\s*(.+)?$/);
-    if (m) {
-      const maybeTitle = m[2].trim();
-      const isKnownTitle = SECTION_TITLES.has(maybeTitle.replace(/\s+/g, " "));
-      // Also treat obvious title-cased lines ending with ":" as headings
-      const looksLikeTitle = isKnownTitle || (/^[A-Z][A-Za-z /&+-]{2,}$/.test(maybeTitle) && /:\s*$/.test(line));
-      if (isKnownTitle || looksLikeTitle) {
-        // Normalise to bold title on its own line
-        const body = (m[4] || "").trim();
-        out.push(`**${maybeTitle}**:`);
-        if (body) out.push(body);
-        out.push(""); // blank line after section start
-        continue;
+    // Check if this line contains a section title
+    for (const title of SECTION_TITLES) {
+      const titleRegex = new RegExp(`^\\s*(\\*\\*)?\\s*${title}\\s*(\\*\\*)?\\s*:?\\s*$`, 'i');
+      if (titleRegex.test(line)) {
+        // Standardize section header format
+        cleanedLines.push(`**${title}:**`);
+        // Ensure blank line after header (unless next line is already blank)
+        if (i + 1 < lines.length && lines[i + 1].trim() !== "") {
+          cleanedLines.push("");
+        }
+        line = null;
+        break;
       }
     }
     
-    // Remove bullets from standalone sentences (complete thoughts with punctuation)
-    if (/^\s*[-*•]\s+[A-Z][^.!?]*[.!?]\s*$/.test(line)) {
-      line = line.replace(/^\s*[-*•]\s+/, "");
+    if (line !== null) {
+      cleanedLines.push(line);
     }
-
-    out.push(line);
   }
-
-  // Ensure a clear gap after any bolded section header "**Title**:"
-  let cleaned = out.join("\n")
-    .replace(/(\*\*[^*]+?\*\*:\s*)\n(?!\n)/g, "$1\n\n") // force blank line after headers
-    .replace(/\n{3,}/g, "\n\n"); // collapse excessive blank lines
-
-  return cleaned.trim();
+  
+  // Join and remove excessive blank lines
+  let cleaned = cleanedLines.join("\n")
+    .replace(/\n{4,}/g, "\n\n\n") // Max 3 consecutive newlines
+    .trim();
+  
+  return cleaned;
 }
 
 export default function MSRAChatbot() {
@@ -371,7 +353,7 @@ export default function MSRAChatbot() {
           const updated = [...prev];
           const last = updated.length - 1;
           if (updated[last]?.type === 'bot') {
-            // --- NEW: clean formatting before rendering ---
+            // Clean formatting minimally before rendering
             updated[last] = { ...updated[last], text: cleanBotText(tempText) };
           }
           return updated;
@@ -398,7 +380,7 @@ export default function MSRAChatbot() {
   function BotMessage({ text }) {
     if (isLikelyHTML(text)) {
       const clean = DOMPurify.sanitize(text, {
-        ALLOWED_TAGS: ["p","b","i","em","strong","ul","ol","li","br","span","h1","h2","h3","h4"],
+        ALLOWED_TAGS: ["p","b","i","em","strong","ul","ol","li","br","span","h1","h2","h3","h4","table","thead","tbody","tr","td","th"],
         ALLOWED_ATTR: []
       });
       return <div className="prose prose-sm max-w-none" dangerouslySetInnerHTML={{ __html: clean }} />;
@@ -411,22 +393,40 @@ export default function MSRAChatbot() {
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={{
-            p: ({node, ...props}) => <p className="mb-3 last:mb-0" {...props} />, // more gap between paragraphs
-            ul: ({node, ...props}) => <ul className="list-disc list-inside mb-2 space-y-1" {...props} />,
-            ol: ({node, ...props}) => <ol className="list-decimal list-inside mb-2 space-y-1" {...props} />,
-            li: ({node, ...props}) => <li className="text-sm leading-relaxed" {...props} />,
-            strong: ({node, ...props}) => <strong className="font-bold text-emerald-600" {...props} />,
+            p: ({node, ...props}) => <p className="mb-3 last:mb-0 text-gray-800" {...props} />,
+            ul: ({node, ...props}) => <ul className="list-disc list-outside mb-3 ml-6 space-y-1" {...props} />,
+            ol: ({node, ...props}) => <ol className="list-decimal list-outside mb-3 ml-6 space-y-1" {...props} />,
+            li: ({node, children, ...props}) => (
+              <li className="text-sm leading-relaxed text-gray-800" {...props}>
+                <span className="ml-1">{children}</span>
+              </li>
+            ),
+            strong: ({node, ...props}) => <strong className="font-semibold text-emerald-700" {...props} />,
             em: ({node, ...props}) => <em className="italic text-gray-700" {...props} />,
             code: ({node, inline, ...props}) =>
               inline ? (
                 <code className="px-1.5 py-0.5 bg-gray-100 text-emerald-600 rounded text-xs font-mono" {...props} />
               ) : (
-                <code className="block p-3 bg-gray-100 text-gray-800 rounded-lg text-xs font-mono overflow-x-auto mb-2" {...props} />
+                <code className="block p-3 bg-gray-100 text-gray-800 rounded-lg text-xs font-mono overflow-x-auto mb-3" {...props} />
               ),
-            h1: ({node, ...props}) => <h1 className="text-lg font-bold mb-2 mt-4" {...props} />,
-            h2: ({node, ...props}) => <h2 className="text-base font-bold mb-2 mt-3" {...props} />,
-            h3: ({node, ...props}) => <h3 className="text-sm font-bold mb-2 mt-2" {...props} />,
-            h4: ({node, ...props}) => <h4 className="text-sm font-semibold mb-1.5 mt-2" {...props} />,
+            h1: ({node, ...props}) => <h1 className="text-lg font-bold mb-2 mt-4 text-emerald-700" {...props} />,
+            h2: ({node, ...props}) => <h2 className="text-base font-bold mb-2 mt-3 text-emerald-700" {...props} />,
+            h3: ({node, ...props}) => <h3 className="text-sm font-bold mb-2 mt-2 text-emerald-700" {...props} />,
+            h4: ({node, ...props}) => <h4 className="text-sm font-semibold mb-1.5 mt-2 text-gray-700" {...props} />,
+            table: ({node, ...props}) => (
+              <div className="overflow-x-auto mb-4">
+                <table className="min-w-full divide-y divide-gray-200" {...props} />
+              </div>
+            ),
+            thead: ({node, ...props}) => <thead className="bg-gray-50" {...props} />,
+            tbody: ({node, ...props}) => <tbody className="bg-white divide-y divide-gray-200" {...props} />,
+            tr: ({node, ...props}) => <tr {...props} />,
+            th: ({node, ...props}) => (
+              <th className="px-3 py-2 text-left text-xs font-medium text-gray-700 uppercase tracking-wider" {...props} />
+            ),
+            td: ({node, ...props}) => (
+              <td className="px-3 py-2 text-sm text-gray-800 whitespace-normal" {...props} />
+            ),
           }}
         >
           {cleaned}
@@ -503,7 +503,7 @@ export default function MSRAChatbot() {
                   <span>GURU</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  {/* --- NEW: Prominent Show thinking button --- */}
+                  {/* --- Prominent Show thinking button --- */}
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
