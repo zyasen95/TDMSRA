@@ -16,62 +16,43 @@ const isLikelyHTML = (str) => /<\/?[a-z][\s\S]*>/i.test(str);
 const PILL_DURATION = 150;
 const CLOSE_DELAY = 150;
 
-/** --- FIXED: Minimal intervention cleanup - let markdown handle most formatting --- */
+/** --- ROBUST: Handle all header variations --- */
 const SECTION_TITLES = new Set([
   "Clinical relevance","Memory anchor","Key points","References","Summary","Red flags",
   "Explanation","Diagnosis","Management","Investigations","Investigation","Treatment",
   "Differential diagnosis","Prognosis","Epidemiology","Pathophysiology","Risk factors",
   "Clinical Overview", "Stepwise Approach", "Key Points", "Common Pitfalls", "Sources",
-  "Memory Anchor"
+  "Memory Anchor", "Management Approach", "Stepwise Management of T2DM", "Investigation Approach",
+  "Stepwise Management", "Additional considerations"
 ]);
 
 function cleanBotText(raw) {
   if (!raw || typeof raw !== "string") return raw;
-
-  // Early exit if it looks like raw HTML
   if (isLikelyHTML(raw)) return raw;
 
-  // Minimal cleanup - just ensure consistent line endings
   let text = raw.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
   
-  // Fix any obvious formatting issues without being too aggressive
-  // 1. Fix orphaned asterisks (** without closing)
-  text = text.replace(/\*\*\s*$/gm, "");
-  text = text.replace(/^\s*\*\*\s*$/gm, "");
-  
-  // 2. Ensure section headers are properly formatted
-  const lines = text.split("\n");
-  const cleanedLines = [];
-  
-  for (let i = 0; i < lines.length; i++) {
-    let line = lines[i];
+  // Fix section headers - handle all variations
+  for (const title of SECTION_TITLES) {
+    // Create case-insensitive regex that matches any variation
+    const escapedTitle = title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     
-    // Check if this line contains a section title
-    for (const title of SECTION_TITLES) {
-      const titleRegex = new RegExp(`^\\s*(\\*\\*)?\\s*${title}\\s*(\\*\\*)?\\s*:?\\s*$`, 'i');
-      if (titleRegex.test(line)) {
-        // Standardize section header format
-        cleanedLines.push(`**${title}:**`);
-        // Ensure blank line after header (unless next line is already blank)
-        if (i + 1 < lines.length && lines[i + 1].trim() !== "") {
-          cleanedLines.push("");
-        }
-        line = null;
-        break;
-      }
-    }
+    // Match: "Title:", "**Title:", "Title:**", "**Title:**", "**Title**:"
+    const headerPattern = new RegExp(
+      `^\\s*\\*{0,2}\\s*${escapedTitle}\\s*\\*{0,2}\\s*:?\\s*$`,
+      'gmi'
+    );
     
-    if (line !== null) {
-      cleanedLines.push(line);
-    }
+    text = text.replace(headerPattern, `**${title}:**`);
   }
   
-  // Join and remove excessive blank lines
-  let cleaned = cleanedLines.join("\n")
-    .replace(/\n{4,}/g, "\n\n\n") // Max 3 consecutive newlines
-    .trim();
+  // Fix numbered lists where the content is on the next line
+  text = text.replace(/^(\d+)\.\s*\n+\s*([^\n])/gm, '$1. $2');
   
-  return cleaned;
+  // Remove excessive blank lines (max 2 consecutive)
+  text = text.replace(/\n{3,}/g, "\n\n");
+  
+  return text.trim();
 }
 
 export default function MSRAChatbot() {
