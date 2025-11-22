@@ -1,4 +1,4 @@
-// pages/api/generate-msra-local.ts
+// pages/api/generate-msra.disabled.ts
 // Simplified version with local JSON storage instead of complex SQL
 
 import { IncomingForm } from 'formidable';
