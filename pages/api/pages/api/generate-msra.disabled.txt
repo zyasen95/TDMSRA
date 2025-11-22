@@ -7,14 +7,14 @@ import path from 'path';
 import { OpenAI } from 'openai';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import formidable from 'formidable';
-import { getSubsectionAndSubsubsectionPromptMSRA } from '../../lib/getSubsectionMSRA';
-import { extractTextFromImage } from '../../lib/ocr';
+import { getSubsectionAndSubsubsectionPromptMSRA } from '../../../../lib/getSubsectionMSRA';
+import { extractTextFromImage } from '../../../../lib/ocr';
 import { 
   determineQuestionType, 
   findRelevantChunks, 
   rerankChunks, 
   extractReferences 
-} from '../../lib/MSRASupabaseStore';
+} from '../../../../lib/MSRASupabaseStore';
 
 // MSRA System Prompt
 const systemPromptMSRA = `You are an expert medical educator helping to build a high-quality MSRA Clinical Problem Solving question bank.
