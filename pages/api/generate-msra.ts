@@ -1,4 +1,4 @@
-// pages/api/generate-msra.disabled.ts
+// pages/api/generate-msra.ts
 // Simplified version with local JSON storage instead of complex SQL
 
 import { IncomingForm } from 'formidable';
@@ -14,7 +14,7 @@ import {
   findRelevantChunks, 
   rerankChunks, 
   extractReferences 
-} from '../../lib/rag/MSRASupabaseStore';
+} from '../../lib/MSRASupabaseStore';
 
 // MSRA System Prompt
 const systemPromptMSRA = `You are an expert medical educator helping to build a high-quality MSRA Clinical Problem Solving question bank.
